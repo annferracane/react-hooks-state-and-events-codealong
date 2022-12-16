@@ -1,0 +1,7 @@
+import React from "react";
+
+function Toggle({toggleState, onClickHandler}) {
+  return <button onClick>{toggleState}</button>;
+}
+
+export default Toggle;

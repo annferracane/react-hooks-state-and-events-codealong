@@ -1,9 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 
-function Toggle() {
+function Toggle({toggleState, onClick}) {
   const [toggleState, setToggleState] = useState('OFF');
 
   function onClickHandler (e) {
+    //console.log(e.target.innerText);
     setToggleState(e.target.innerText === "OFF" ? "ON" : "OFF");
   }
 

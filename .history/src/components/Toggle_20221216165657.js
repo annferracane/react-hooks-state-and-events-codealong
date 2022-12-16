@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 
 function Toggle() {
   const [toggleState, setToggleState] = useState('OFF');
